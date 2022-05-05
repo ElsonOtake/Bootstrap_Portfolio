@@ -10,6 +10,21 @@ a {
   text-decoration: none;
 }
 
+i {
+  color: white;
+}
+
+.headline-section {
+  background-color: #262626;
+  background-image: url(/images/header-background.png);
+  background-repeat: no-repeat;
+  background-position: 100% 0%;
+}
+
+.headline-container {
+  padding: 264px 0;
+}
+
 .about-container {
   background-color: #262626;
   background-image: url(/images/about-background.png);
@@ -29,10 +44,39 @@ a {
 
 @media only screen and (max-width: 992px) {
 
+  .headline-section {
+    background-image: url(/images/header-mobile-background.png);
+    background-position: 100% 100%;
+  }
+
+  .headline-container {
+    padding: 120px 0;
+  }
+
+  .icon-list ul {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 40%;
+    padding-left: 0;
+  }
+
+  .work-section h2 {
+    text-align: center;
+  }
+
+  .work-section hr {
+    width: 85%;
+    margin: auto;
+  }
+
   .about-container {
     background-image: url(/images/about-mobile-background.png);
     background-repeat: no-repeat;
     background-position: 100% 28%;
   }  
+
+  .about-sections {
+    text-align: center;
+  }
 
 }
