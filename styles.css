@@ -1,9 +1,10 @@
-ul {
-  list-style: none;
+nav {
+  align-content: center;
+  background-color: #3e3c3c;
 }
 
-li {
-  margin-bottom: 10px;
+ul {
+  list-style: none;
 }
 
 a {
@@ -12,6 +13,10 @@ a {
 
 i {
   color: white;
+}
+
+label {
+  display: none;
 }
 
 .headline-section {
@@ -42,7 +47,22 @@ i {
   margin-top: 140px;
 }
 
-@media only screen and (max-width: 992px) {
+.contact-section {
+  padding: 130px 0;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  padding: 20px 0;
+  border-top: #dfe1e6 solid 2px;
+}
+
+footer i{
+  color: #262626;
+}
+
+@media only screen and (max-width: 768px) {
 
   .headline-section {
     background-image: url(/images/header-mobile-background.png);
