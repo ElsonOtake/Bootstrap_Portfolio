@@ -2,6 +2,37 @@ ul {
   list-style: none;
 }
 
+li {
+  margin-bottom: 10px;
+}
+
 a {
   text-decoration: none;
+}
+
+.about-container {
+  background-color: #262626;
+  background-image: url(/images/about-background.png);
+  background-repeat: no-repeat;
+  background-position: 100% 15%;
+}
+
+.about-sections {
+  padding: 130px 0;
+}
+
+.white-line {
+  color: white;
+  border-bottom: white solid 4px;
+  margin-top: 140px;
+}
+
+@media only screen and (max-width: 992px) {
+
+  .about-container {
+    background-image: url(/images/about-mobile-background.png);
+    background-repeat: no-repeat;
+    background-position: 100% 28%;
+  }  
+
 }
