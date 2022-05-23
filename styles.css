@@ -47,6 +47,14 @@ label {
   margin-top: 140px;
 }
 
+.container article a {
+  width: 100%;
+}
+
+.card-img-overlay {
+  background-color: rgba(0, 0, 0, 0.659);
+}
+
 .contact-section {
   padding: 130px 0;
 }
