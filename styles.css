@@ -66,12 +66,11 @@ footer {
   border-top: #dfe1e6 solid 2px;
 }
 
-footer i{
+footer i {
   color: #262626;
 }
 
 @media only screen and (max-width: 768px) {
-
   .headline-section {
     background-image: url(/images/header-mobile-background.png);
     background-position: 100% 100%;
@@ -101,10 +100,9 @@ footer i{
     background-image: url(/images/about-mobile-background.png);
     background-repeat: no-repeat;
     background-position: 100% 28%;
-  }  
+  }
 
   .about-sections {
     text-align: center;
   }
-
 }
