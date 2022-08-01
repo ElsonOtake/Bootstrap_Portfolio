@@ -76,6 +76,7 @@ Give a ⭐️ if you like this project!
 ## Acknowledgments
 
 - Microverse
+- [Figma](https://www.figma.com/file/l7SqJ3ZfkAKih9sFxvWSR4/Microverse-Student-Project-1?node-id=0%3A1)
 - Zeplin
 - W3Schools
 - Stack Overflow
@@ -83,4 +84,4 @@ Give a ⭐️ if you like this project!
 
 ## 📝 License
 
-This project is [MIT](https://github.com/ElsonOtake/) licensed.
+This project is [MIT](./MIT.md) licensed.
